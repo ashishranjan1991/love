@@ -1,0 +1,6 @@
+{
+  "name": "Say Yes or Else - Will You Go On A Date With Me?",
+  "description": "An interactive, viral date proposal web application featuring playful evasive buttons, meme reactions, date scheduling, food & activity picker, and calendar confirmation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
