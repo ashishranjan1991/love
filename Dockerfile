@@ -9,7 +9,7 @@ WORKDIR /app
 
 # Install dependencies (cached layer)
 COPY package*.json ./
-RUN npm ci || npm install
+RUN if [ -f package-lock.json ]; then npm ci; else npm install; fi
 
 # Copy source code and build config
 COPY . .
